@@ -16,6 +16,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -69,3 +73,48 @@ footer, header, hgroup, menu, nav, section {
     margin-right: 6px;
 }
 
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo-container {
+    background-image: url("./assets/intuit.png");
+    width: 118px;
+    height: 35px;
+}
+
+.widget-header {
+    padding-top: 0;
+}
+
+.header-list {
+    list-style: none;
+    width: 318px;
+    height: 23px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list li {
+    margin-right: 9px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.icon-svg {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    margin-right: 4px;
+}
+
+.turbo-text {
+    margin-top: -4px;
+}
