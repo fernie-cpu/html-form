@@ -158,3 +158,61 @@ a {
 .widget-sub-header a:hover {
     text-decoration: underline;
 }
+
+fieldset {
+    border: 0;
+}
+
+label {
+    display: block;
+    padding-bottom: 6px;
+    color: #404040;
+    line-height: 25px;
+}
+
+.input-container {
+    width: 320px;
+    min-width: 160px;
+    height: 34px;
+    position: relative;
+}
+
+.fieldset-email {
+    height: 95px;
+}
+
+.text-input {
+    height: 34px;
+    width: 320px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #c1c5c8;
+    border-radius: 3px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.text-input:focus {
+    border: 1px solid #52a8ec;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 8%) inset, 0 0 8px rgb(82, 168, 236 / 60%);
+    -webkit-box-shadow: 0 1px 1px rgb(0, 0, 0 / 8%) inset, 0 0 8px rgb(82, 168, 236 / 60%);
+    -webkit-box-shadow: 0 1px 1px #FFF inset, 0 0 8px #52A8EC;
+    outline: 0 none;
+}
+
+.fieldset-phone {
+    min-height: 115px;
+}
+
+.field-block {
+    display: block;
+    min-height: 20px;
+}
+
+.sms-warning {
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+}
