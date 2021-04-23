@@ -18,6 +18,7 @@ footer, header, hgroup, menu, nav, section {
 
 a {
     text-decoration: none;
+    color: #0077c5;
 }
 
 .nav-wrapper {
@@ -73,7 +74,7 @@ a {
     margin-right: 6px;
 }
 
-header {
+.main-header {
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -87,6 +88,8 @@ header {
 }
 
 .widget-header {
+    display: flex;
+    justify-content: center;
     padding-top: 0;
 }
 
@@ -117,4 +120,41 @@ header {
 
 .turbo-text {
     margin-top: -4px;
+}
+
+.sign-up-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-box {
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    padding: 30px;
+    width: 380px;
+}
+
+.wrapper-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.widget-title {
+    color: #393a3d;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+.widget-sub-header {
+    display: block;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #393a3d;
+}
+
+.widget-sub-header a:hover {
+    text-decoration: underline;
 }
