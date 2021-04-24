@@ -57,7 +57,7 @@ a {
     margin-left: 10px;
 }
 
-.nav-column button {
+.btn {
     display: flex;
     align-items: center;
     background: #0077c5;
@@ -215,4 +215,28 @@ label {
     padding: 5px 0;
     font-size: 10px;
     color: #444;
+}
+
+.fieldset-password {
+    height: 98px;
+}
+
+.box-btn {
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-color: #0077c5;
+    text-shadow: none;
+    -webkit-box-shadow: 0 1px 1px 0 rgb(0, 0, 0);
+    box-shadow: 0 1px 1px 0 rgb(0, 0, 0);
+    min-width: 100px;
+    padding: 8px 12px 6px 12px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 1.125em;
+}
+
+.box-btn .locker {
+    margin-right: .5rem;
 }
