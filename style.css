@@ -21,6 +21,10 @@ a {
     color: #0077c5;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -40,15 +44,6 @@ a {
     display: flex;
     flex-direction: column;
     text-align: right;
-}
-
-.nav-column-left a {
-    color: #0077c5;
-    text-decoration: none;
-}
-
-.nav-column-left a:hover {
-    text-decoration: underline;
 }
 
 .nav-column {
@@ -155,10 +150,6 @@ a {
     color: #393a3d;
 }
 
-.widget-sub-header a:hover {
-    text-decoration: underline;
-}
-
 fieldset {
     border: 0;
 }
@@ -239,4 +230,29 @@ label {
 
 .box-btn .locker {
     margin-right: .5rem;
+}
+
+.footer-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.terms-of-use {
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.captcha {
+    background: #eceef1;
+    padding: 16px;
+    margin: 32px -30px -30px -30px;
+    text-align: center;
+}
+
+.captcha-text {
+    font-size: 10px;
+    color: #8d9096;
 }
