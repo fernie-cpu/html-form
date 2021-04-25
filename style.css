@@ -256,3 +256,44 @@ label {
     font-size: 10px;
     color: #8d9096;
 }
+
+.main-footer {
+    color: #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 12px;
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.link-footer {
+    display: flex;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.link-footer li {
+    padding-left: 10px;
+}
+
+.link-footer a {
+    color: #505050;
+}
+
+.privacy-settings {
+    background: #fff;
+    height: 64px;
+    width: 100vw;
+    min-width: 380px;
+    padding: 20px;
+    margin-top: 72px;
+    text-align: left;
+}
+
+.privacy-settings a {
+    font-size: 14px;
+}
